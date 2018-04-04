@@ -14,6 +14,7 @@ const path = require('path')
 */
 const providers = [
   '@adonisjs/framework/providers/AppProvider',
+  '@adonisjs/validator/providers/ValidatorProvider',
   path.join(__dirname, '..', 'providers', 'LogEntriesProvider')
 ]
 
